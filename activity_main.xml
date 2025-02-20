@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/texts"
+        android:layout_marginBottom="30dp"
+        android:background="@null"
+        android:hint="Tap to Speak"
+        android:textAlignment="center"
+        android:inputType="text"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/buttons"
+        android:src="@drawable/mic_off"
+        android:backgroundTint="#F9F8FA"
+        android:layout_marginTop="15dp"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+
+
+
+</LinearLayout>
